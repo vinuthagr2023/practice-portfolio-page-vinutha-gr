@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(224, 238, 243);
+}
+
+#profile {
+    color: #4752ef;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: purple;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: hotpink; /*color when the mouse hovers over a link*/
+}
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 3px solid purple;
+}
+#about_me{
+    color: purple;
+    font-size: large;
+}
+
+#about_me_p{
+    color:  hsl(240, 85%, 21%);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.box {
+    width: 80%;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color:hsl(210, 79%, 82%);
+    border-radius: 8px; /* Optional: rounded corners */
+    margin: 20px auto;  /* Centers the box */
+    }
+
+.box p {
+    margin: 0;
+}
+section {
+    margin: 40px 0;
+}
+#my_skills{
+    text-align: center;
+    font-size: large;
+    color: purple;
+}
+
+.skills_list {
+    display: flex;
+    flex-direction: column;  /* Stack boxes vertically */
+    align-items: center;     /* Center boxes horizontally */
+    gap: 15px;               /* Space between boxes */
+} 
+
+.skill-box {
+    width: 180px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #d9ecff;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: hsl(210, 79%, 82%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+#contact h2 {
+    text-align: center;
+    color: purple;
+    font-size: large;
+}
+
+#contact a {
+    color: purple;
+    text-decoration: none;
+}

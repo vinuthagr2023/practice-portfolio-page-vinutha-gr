@@ -6,6 +6,7 @@ body {
     color: #4752ef;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
 h2{
     text-align: center;
@@ -67,7 +68,7 @@ section {
 
 .skills_list {
     display: flex;
-    flex-direction: column;  /* Stack boxes vertically */
+    flex-direction:column;  /* Stack boxes vertically */
     align-items: center;     /* Center boxes horizontally */
     gap: 15px;               /* Space between boxes */
 } 
@@ -80,13 +81,30 @@ section {
     background-color: #d9ecff;
     text-align: center;
     font-weight: bold;
+    color: #4752ef;
+    }
+
+#contact h2 {
+    text-align: center;
+    color: purple;
+    font-size: large;
+}
+
+#contact p{
+    color: rgb(66, 11, 205);
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+}
+#contact :hover{
+    color: rgb(230, 54, 124);
 }
 
 footer {
     background-color: hsl(210, 79%, 82%);
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 1%;
+    margin-top: 20px;
 }
 
 footer a {
@@ -100,13 +118,3 @@ footer a:hover {
     text-decoration: underline;
 }
 
-#contact h2 {
-    text-align: center;
-    color: purple;
-    font-size: large;
-}
-
-#contact a {
-    color: purple;
-    text-decoration: none;
-}
